@@ -43,7 +43,7 @@ def valid_term(loan_type):
             if term in range(max_term + 1):
                 return term
             else:
-                print(f"The maximum term for {loan_type["loan_type"]} loan is {max_term}")
+                print(f"The maximum term for {loan_type['loan_type']} loan is {max_term}")
         except ValueError:
             print("Enter a vaid integer")
 
